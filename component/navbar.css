@@ -1,0 +1,60 @@
+nav {
+    border-bottom: 1px solid #f5f5f5;
+}
+
+.navbar-nav {
+  margin-left: 220px;
+  color: #000000;
+  font-weight: 500;
+}
+
+.container-fluid {
+  padding-top: 10px;
+}
+
+.nav-item:hover {
+  background: linear-gradient(#7d8184, #f5f5f5);
+  transition: all 0.9s;
+  transform: scale(1.1);
+}
+
+input[type="search"] {
+  width: 250px;
+  margin-left: 70px;
+  background-color: #f5f5f5;
+  border: none;
+}
+
+#search {
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 290px;
+}
+
+#heart,
+#cart {
+  margin-top: 10px;
+}
+
+#heart {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+@media screen and (max-width: 900px) {
+  input[type="search"] {
+    margin-top: 10px;
+    margin-left: -30px;
+  }
+
+  #search {
+    margin-top: 20px;
+    margin-left: 190px;
+  }
+
+  #heart {
+    margin-left: 0;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+}
