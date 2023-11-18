@@ -1,0 +1,34 @@
+.footer {
+  background-color: #000000;
+  font-family: "Poppins";
+  color: #ffffff;
+}
+
+.footer-list {
+  list-style: none;
+  margin-left: -30px;
+}
+
+.footer-list li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.mail .e-mail {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.fa-brands,
+.fa-solid {
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+#first-row {
+  border-bottom: 1px solid #363738;
+}
+
+#copyright {
+  color: #363738;
+}
