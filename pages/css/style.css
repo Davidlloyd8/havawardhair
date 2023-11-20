@@ -140,6 +140,22 @@ h1 {
   color: #ffffff;
   font-weight: 600;
 }
+
+#products-section .btn {
+  margin-top: 40px;
+  margin-left: 450px;
+}
+
+#products-section #pro {
+  width: 200px;
+  background-color: #db4444;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+#products-section #pro:hover {
+  background-color: #E07575;
+}
 /* End od products section */
 
 /* Begining of advert section */
