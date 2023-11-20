@@ -17,11 +17,11 @@
     <title>HAVAWARD HAIR | HOME</title>
     <link rel="stylesheet" href="../pages/css/style.css" type="text/css" />
     <link rel="stylesheet" href="../resources/css/navbar.css" type="text/css" />
-    <link rel="stylesheet" href="../resources/css/footer.css" type="text/css">
+    <link rel="stylesheet" href="../resources/css/footer.css" type="text/css" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg fixed-top">
-      <div class="container">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
         <a class="navbar-brand" href="#">Havaward Hair</a>
         <button
           class="navbar-toggler"
@@ -37,34 +37,45 @@
         <div class="collapse navbar-collapse" id="navbarContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link" aria-controls="page" href="../pages/index.html">Home</a>
+              <a class="nav-link" aria-controls="page" href="../index.html"
+                >Home</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="../pages/about.html">About</a>
+              <a class="nav-link" href="../about.html">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Product</a>
+              <a class="nav-link" href="../product.html">Product</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link" href="../contact.html">Contact</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Sign In</a>
+              <a class="nav-link" href="../pages/signup.html">Sign In</a>
             </li>
-            <ul>
-              <form class="d-flex">
-                <input
-                  class="form-control me-2"
-                  type="search"
-                  placeholder="What are you looking for?"
-                  aria-label="search"
-                />
-                <i class="fa-solid fa-search" id="search"></i>
-              </form>
-            </ul>
-            <!--<i class="fa-light fa-heart"></i>-->
-            <i class="far fa-heart" id="heart"></i>
-            <i class="fa fa-shopping-cart" id="cart"></i>
+            <li class="nav-item">
+              <ul>
+                <form class="d-flex">
+                  <input
+                    class="form-control me-2"
+                    type="search"
+                    placeholder="What are you looking for?"
+                    aria-label="search"
+                  />
+                  <i class="fa-solid fa-search" id="search"></i>
+                </form>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <span class="d-flex">
+                <a href="#" class="nav-link"
+                  ><i class="far fa-heart" id="heart"></i
+                ></a>
+                <a href="#" class="nav-link"
+                  ><i class="fa fa-shopping-cart" id="cart"></i
+                ></a>
+              </span>
+            </li>
           </ul>
         </div>
       </div>
@@ -330,15 +341,11 @@
             </div>
           </div>
         </div>
-        <div class="btn">
-              <a class="special" href="products.html">
-                <input
-                  class="submit-btn"
-                  type="submit"
-                  id="pro"
-                  value="View All Products"
-              /></a>
-            </div>
+        <div class="text-center mt-5">
+          <a class="special btn" id="pro" href="products.html">
+            View All Products
+          </a>
+        </div>
       </div>
 
       <div class="container p-5" id="advert-section">
