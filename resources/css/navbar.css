@@ -1,9 +1,10 @@
 nav {
     border-bottom: 1px solid #f5f5f5;
+    background-color: #ffffff;
 }
 
 .navbar-nav {
-  margin-left: 220px;
+  margin-left: 150px;
   color: #000000;
   font-weight: 500;
 }
