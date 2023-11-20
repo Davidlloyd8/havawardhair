@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>HAVAWARD HAIR</title>
+    <link rel="stylesheet" href="../pages/css/style.css" type="text/css" />
+    <link rel="stylesheet" href="../resources/css/navbar.css" type="text/css" />
+    <link rel="stylesheet" href="../resources/css/footer.css" type="text/css">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">Havaward Hair</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarContent"
+          aria-controls="navbarContent"
+          aria-expanded="false"
+          aria-label="Toggle Navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-controls="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Product</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Sign In</a>
+            </li>
+            <ul>
+              <form class="d-flex">
+                <input
+                  class="form-control me-2"
+                  type="search"
+                  placeholder="What are you looking for?"
+                  aria-label="search"
+                />
+                <i class="fa-solid fa-search" id="search"></i>
+              </form>
+            </ul>
+            <!--<i class="fa-light fa-heart"></i>-->
+            <i class="far fa-heart" id="heart"></i>
+            <i class="fa fa-shopping-cart" id="cart"></i>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <div class="container-fluid p-5" id="hero-section">
+        <div class="row">
+          <div class="col-lg-6" id="left">
+            <h1>
+              Beautify <br />
+              Your Look
+            </h1>
+            <p class="welcome-p">
+              Explore our online store today and find the piece that will <br />
+              illuminate your style and captivate your heart.
+            </p>
+            <div class="button">
+              <a class="special" href="products.html">
+                <input
+                  class="submit-btn"
+                  type="submit"
+                  id="shop"
+                  value="Shop Now"
+              /></a>
+            </div>
+          </div>
+          <div class="col-lg-6" id="right">
+            <div
+              class="carousel slide carousel-fade"
+              id="carouselFade"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="../images/rings 3.avif"
+                    class="d-block"
+                    alt="An Image"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="../images/bob wig.avif"
+                    class="d-block"
+                    alt="An Image"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="../images/bracelets.avif"
+                    class="d-block"
+                    alt="An Image"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="../images/braided wig.avif"
+                    class="d-block"
+                    alt="An Image"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="../images/necklace.avif"
+                    class="d-block"
+                    alt="An Image"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="../images/cornrow wig.avif"
+                    class="d-block"
+                    alt="An Image"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="../images/set of jewelries.avif"
+                    class="d-block"
+                    alt="An Image"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container" id="products-section">
+        <div class="product">
+          <div class="vr"></div>
+          <p class="product-p">Our Products</p>
+        </div>
+        <h3>Explore Our Products</h3>
+        <ul class="nav justify-content-center">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Wigs</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Jewelry Sets</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Necklaces</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Bracelets</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Earrings</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Rings</a>
+          </li>
+        </ul>
+        <div class="row" id="products">
+          <div class="card col-lg-4 text-center">
+            <div class="img-container">
+              <img src="../images/cornrow wig.avif" class="image" />
+            </div>
+            <p class="name">Cornrow Wig</p>
+            <p class="price">Rp: $40,000</p>
+            <div class="button">
+              <a class="special" href="#">
+                <input
+                  class="submit-btn"
+                  type="submit"
+                  id="cart"
+                  value="Add To Cart"
+              /></a>
+            </div>
+          </div>
+          <div class="card col-lg-4 text-center">
+            <div class="img-container">
+              <img src="../images/afro wig.avif" class="image" />
+            </div>
+            <p class="name">Afro Wig</p>
+            <p class="price">Rp: $20,000</p>
+            <div class="button">
+              <a class="special" href="#">
+                <input
+                  class="submit-btn"
+                  type="submit"
+                  id="cart"
+                  value="Add To Cart"
+              /></a>
+            </div>
+          </div>
+          <div class="card col-lg-4 text-center">
+            <div class="img-container">
+              <img src="../images/curlyy wig.avif" class="image" />
+            </div>
+            <p class="name">Curly Wig</p>
+            <p class="price">Rp: $50,000</p>
+            <div class="button">
+              <a class="special" href="#">
+                <input
+                  class="submit-btn"
+                  type="submit"
+                  id="cart"
+                  value="Add To Cart"
+              /></a>
+            </div>
+          </div>
+        </div>
+        <div class="row" id="products">
+          <div class="card col-lg-4 text-center">
+            <div class="img-container">
+              <img src="../images/straight wig.avif" class="image" />
+            </div>
+            <p class="name">Straight Wig</p>
+            <p class="price">Rp: $40,000</p>
+            <div class="button">
+              <a class="special" href="#">
+                <input
+                  class="submit-btn"
+                  type="submit"
+                  id="cart"
+                  value="Add To Cart"
+              /></a>
+            </div>
+          </div>
+          <div class="card col-lg-4 text-center">
+            <div class="img-container">
+              <img src="../images/pixie cut wig.avif" class="image" />
+            </div>
+            <p class="name">Pixie Cut Wig</p>
+            <p class="price">Rp: $20,000</p>
+            <div class="button">
+              <a class="special" href="#">
+                <input
+                  class="submit-btn"
+                  type="submit"
+                  id="cart"
+                  value="Add To Cart"
+              /></a>
+            </div>
+          </div>
+          <div class="card col-lg-4 text-center">
+            <div class="img-container">
+              <img src="../images/bob wig.avif" class="image" />
+            </div>
+            <p class="name">Bob Wig</p>
+            <p class="price">Rp: $50,000</p>
+            <div class="button">
+              <a class="special" href="#">
+                <input
+                  class="submit-btn"
+                  type="submit"
+                  id="cart"
+                  value="Add To Cart"
+              /></a>
+            </div>
+          </div>
+        </div>
+        <div class="row" id="products">
+          <div class="card col-lg-4 text-center">
+            <div class="img-container">
+              <img src="../images/afro wigg.avif" class="image" />
+            </div>
+            <p class="name">Afro Wig</p>
+            <p class="price">Rp: $40,000</p>
+            <div class="button">
+              <a class="special" href="#">
+                <input
+                  class="submit-btn"
+                  type="submit"
+                  id="cart"
+                  value="Add To Cart"
+              /></a>
+            </div>
+          </div>
+          <div class="card col-lg-4 text-center">
+            <div class="img-container">
+              <img src="../images/bobb wig.avif" class="image" />
+            </div>
+            <p class="name">Bob Wig</p>
+            <p class="price">Rp: $20,000</p>
+            <div class="button">
+              <a class="special" href="#">
+                <input
+                  class="submit-btn"
+                  type="submit"
+                  id="cart"
+                  value="Add To Cart"
+              /></a>
+            </div>
+          </div>
+          <div class="card col-lg-4 text-center">
+            <div class="img-container">
+              <img src="../images/braided wig.avif" class="image" />
+            </div>
+            <p class="name">Braided Wig</p>
+            <p class="price">Rp: $50,000</p>
+            <div class="button">
+              <a class="special" href="#">
+                <input
+                  class="submit-btn"
+                  type="submit"
+                  id="cart"
+                  value="Add To Cart"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container p-5" id="advert-section">
+        <div class="row">
+          <div class="col-lg-6" id="left">
+            <h2 class="head5">
+              discover sparkle <br />
+              with style
+            </h2>
+            <div class="button">
+              <a class="special" href="products.html">
+                <input
+                  class="submit-btn"
+                  type="submit"
+                  id="buy"
+                  value="Buy Now"
+              /></a>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div
+              class="carousel slide carousel-fade"
+              id="carouselFade"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="../images/set of jewelry.avif"
+                    class="d-block"
+                    alt="An Image"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="../images/bracelets 2.avif"
+                    class="d-block"
+                    alt="An Image"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="../images/hairr.avif"
+                    class="d-block"
+                    alt="An Image"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="../images/necklace 3.avif"
+                    class="d-block"
+                    alt="An Image"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="../images/bobb wig.avif"
+                    class="d-block"
+                    alt="An Image"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="../images/rings 4.avif"
+                    class="d-block"
+                    alt="An Image"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="../images/braided wig.avif"
+                    class="d-block"
+                    alt="An Image"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container" id="featured-section">
+        <div class="product">
+          <div class="vr"></div>
+          <p class="featured-p">Our Featured Collection</p>
+        </div>
+        <h3>New Arrival</h3>
+        <div class="container p-5" id="box">
+          <div class="row d-flex" id="featured">
+            <div class="col-lg-6" id="top">
+              <img
+                src="../images/bob wig.avif"
+                class="d-block"
+                alt="An Image"
+              />
+              <span class="name"
+                >BOB WIG <br />
+                SERIES</span
+              >
+              <a class="link" href="./productDetail.html">
+                <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+            <div class="col-lg-6">
+              <img
+                src="../images/bracelets 2.avif"
+                class="d-block"
+                alt="An Image"
+              />
+              <span class="name"
+                >BRACELETS <br />
+                SERIES</span
+              >
+              <a class="link" href="./productDetail.html">
+                <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-12">
+              <img
+                src="../images/necklace.avif"
+                class="d-block"
+                id="d"
+                alt="An Image"
+              />
+              <span class="name" id="namee"
+                >NECKLACE <br />
+                SERIES</span
+              >
+              <a class="link" href="./productDetail.html">
+                <i class="fa-solid fa-arrow-right" id="right"></i>
+              </a>
+            </div>
+          </div>
+          <div class="row d-flex" id="featured">
+            <div class="col-lg-6" id="top">
+              <img src="../images/rings 2.jpg" class="d-block" alt="An Image" />
+              <span class="name"
+                >RING <br />
+                SERIES</span
+              >
+              <a class="link" href="./productDetail.html">
+                <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+            <div class="col-lg-6">
+              <img
+                src="../images/cornrow wig.avif"
+                class="d-block"
+                alt="An Image"
+              />
+              <span class="name"
+                >CORNROW WIG <br />
+                SERIES</span
+              >
+              <a class="link" href="./productDetail.html">
+                <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container" id="last-section">
+        <div class="row">
+          <div class="col-lg-4 text-center">
+            <div class="icon-box">
+              <i class="fas fa-truck"></i>
+            </div>
+            <p class="desc">FREE AND FAST DELIVERY</p>
+            <p class="demo">Free delivery for all orders over $140</p>
+          </div>
+          <div class="col-lg-4 text-center">
+            <div class="icon-box">
+              <i class="fas fa-headphones"></i>
+            </div>
+            <p class="desc">24/7 CUSTOMER SERVICE</p>
+            <p class="demo">Friendly 24/7 customer support</p>
+          </div>
+          <div class="col-lg-4 text-center">
+            <div class="icon-box">
+              <i class="fas fa-check"></i>
+            </div>
+            <p class="desc">MONEY BACK GUARANTEE</p>
+            <p class="demo">We return money within 30 days</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer">
+        <div class="container-fluid p-3">
+          <div class="row" id="first-row">
+            <div class="col-lg-3">
+              <h1>
+                HAVAWARD <br />
+                HAIR
+              </h1>
+            </div>
+            <div class="col-lg-3">
+              <h4>Support</h4>
+              <p>Sanfrascisco Canada</p>
+              <p class="mail">
+                <a class="e-mail" href="mailto:havaward@gmail.com">
+                  havaward@gmail.com
+                </a>
+              </p>
+              <p class="phone">+234 903 758 9282</p>
+            </div>
+            <div class="col-lg-2">
+              <h4>Account</h4>
+              <ul class="footer-list">
+                <li>
+                  <a href="#">My Account</a>
+                </li>
+                <li>
+                  <a href="#">Login /Register</a>
+                </li>
+                <li>
+                  <a href="#">Cart</a>
+                </li>
+                <li>
+                  <a href="#">Wishlist</a>
+                </li>
+                <li>
+                  <a href="#">Shop</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-2">
+              <h4>Quick Links</h4>
+              <ul class="footer-list">
+                <li>
+                  <a href="#">Privacy Policy</a>
+                </li>
+                <li>
+                  <a href="#">Terms Of Use</a>
+                </li>
+                <li>
+                  <a href="#">Contact</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-2">
+              <h4>Follow Us</h4>
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-solid fa-envelope"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-x-twitter"></i>
+            </div>
+          </div>
+          <div class="row" id="last-row">
+            <div class="col-lg-12">
+              <p class="text-center mt-3" id="copyright">
+                &copy; Copyright Havaward 2023. All Right Reserved
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
